@@ -4,7 +4,6 @@
 #[macro_use]
 pub mod dos;
 pub mod dpkey;
-extern crate rlibc;
 extern crate alloc;
 
 use crate::dos::allocator::GLOBAL_ALLOCATOR;

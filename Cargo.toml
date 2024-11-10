@@ -10,4 +10,3 @@ edition = "2018"
 opt-level = "z"
 
 [dependencies]
-rlibc = "1.0.0"

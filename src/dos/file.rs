@@ -2,8 +2,6 @@ use core::arch::asm;
 use core::cmp::min;
 use crate::dos::error_code::ErrorCode;
 
-extern crate rlibc;
-
 #[allow(dead_code)]
 pub struct File {
     handle: u16,
